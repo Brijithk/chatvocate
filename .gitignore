@@ -1,0 +1,22 @@
+# Virtual environments
+backend/venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+
+# ChromaDB generated database
+backend/chroma_db/
+
+# Local PDF documents
+backend/documents/*.pdf
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
