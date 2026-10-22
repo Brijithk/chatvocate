@@ -1,10 +1,11 @@
-#find the largest number
-numbers=[5,4,3,2,110]
-highest_number=float('-inf')
+#find the second largest
+numbers = [10, 25, 7, 42, 18]
+largest=float('-inf')
+second_largset=float('-inf')
 for i in numbers:
-    if i>highest_number:
-        highest_number=i
-if highest_number==float('-inf'):
-    print("No number exist")
-else:
-    print(highest_number)
+    if i>largest:
+        second_largset=largest
+        largest=i
+    elif i>second_largset:
+        second_largset=i
+print(second_largset)
